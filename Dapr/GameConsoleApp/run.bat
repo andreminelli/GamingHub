@@ -1,0 +1,1 @@
+dapr run --log-level debug --app-id console -- dotnet run

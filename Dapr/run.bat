@@ -1,0 +1,1 @@
+dapr run --app-id userService --app-port 5013 -- dotnet run
