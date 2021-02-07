@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{FEEF6B1E-BC84-4708-B1C7-7FA0F58D0C7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "UserService\UserService.csproj", "{FEEF6B1E-BC84-4708-B1C7-7FA0F58D0C7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FF0CB92E-D496-4EE8-9FC6-A0BD5A995AA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{2DF1642A-9034-452E-BA53-8B5A3FEC6A0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.Contracts", "UserService.Contracts\UserService.Contracts.csproj", "{D165707D-0840-4EBA-BF86-A4365CD99394}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.Contracts", "UserService.Contracts\UserService.Contracts.csproj", "{D165707D-0840-4EBA-BF86-A4365CD99394}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameConsoleApp", "GameConsoleApp\GameConsoleApp.csproj", "{F4B01D51-8C8F-4A05-B449-BF043C698E2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameConsoleApp", "GameConsoleApp\GameConsoleApp.csproj", "{F4B01D51-8C8F-4A05-B449-BF043C698E2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{09D17B3E-A5D1-4E53-83E5-A0F60BE9D06C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
