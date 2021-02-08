@@ -1,0 +1,31 @@
+{
+    "iisSettings": {
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            "applicationUrl": "http://localhost:50001/",
+            "sslPort": 50002
+        }
+    },
+    "profiles": {
+        "Kestrel": {
+            "commandName": "Executable",
+            "executablePath": "dotnet",
+            "workingDirectory": "$(ProjectDir)",
+            "commandLineArgs": "watch run",
+            "launchBrowser": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "externalUrlConfiguration": true,
+            "launchUrl": "https://localhost:5002/"
+        },
+        "IIS Express": {
+            "commandName": "IISExpress",
+            "launchBrowser": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    }
+}

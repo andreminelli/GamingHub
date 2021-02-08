@@ -3,7 +3,7 @@
 This repo is a playground for testing existing approaches for microservices implementations on .Net. 
 Each folder has a complete solution using one of the following approaches:
 
-- [ ] HTTP API (using ASP.Net Core + OpenAPI)
+- [ ] HTTP API (using ASP.Net Core + OpenAPI) (started)
 - [ ] gRPC (using [protobuf-net.Grpc](https://protobuf-net.github.io/) - aka "code first gRPC") (started)
 - [ ] [Dapr](https://dapr.io) (using Dapr 1.0-rc3) (started)
 - [ ] [Microdot](https://github.com/gigya/microdot)
