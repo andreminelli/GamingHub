@@ -3,10 +3,12 @@
 This repo is a playground for testing existing approaches for microservices implementations on .Net. 
 Each folder has a complete solution using one of the following approaches:
 
+- [ ] HTTP API (using ASP.Net Core + OpenAPI)
 - [ ] gRPC (using [protobuf-net.Grpc](https://protobuf-net.github.io/) - aka "code first gRPC") (started)
 - [ ] [Dapr](https://dapr.io) (using Dapr 1.0-rc3) (started)
 - [ ] [Microdot](https://github.com/gigya/microdot)
 - [ ] [Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-overview)
+- [ ] [MS Orleans](https://dotnet.github.io/orleans/) (an actory system, which could be thougth as a more granular microservice approach)
 
 ### (Proposed) Service Arquitecture
 
