@@ -10,8 +10,8 @@ namespace GameConsoleApp
         {
             var httpHandler = new HttpClientHandler
             {
-                ServerCertificateCustomValidationCallback =
-                HttpClientHandler.DangerousAcceptAnyServerCertificateValidator // Return `true` to allow certificates that are untrusted/invalid
+                ServerCertificateCustomValidationCallback = 
+                    HttpClientHandler.DangerousAcceptAnyServerCertificateValidator // Return `true` to allow certificates that are untrusted/invalid
             };
             using var httpClient = new HttpClient(httpHandler)
             {
