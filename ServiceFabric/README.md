@@ -1,5 +1,5 @@
 ## Pre-requirements
-Service Fabric SDK 8.0
+Service Fabric SDK 8.0 (which is expected to support .Net 5)
 
 ## Design decisions
 
