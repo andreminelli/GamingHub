@@ -1,5 +1,5 @@
 ## Pre-requirements
-Dapr 1.0-rc3
+Dapr 1.0
 
 ## Running
 

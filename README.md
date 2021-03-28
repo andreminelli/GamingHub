@@ -5,7 +5,7 @@ Each folder has a complete solution using one of the following approaches:
 
 - [ ] HTTP API (using ASP.Net Core + OpenAPI) [started]
 - [ ] gRPC (using [protobuf-net.Grpc](https://protobuf-net.github.io/) - aka "code first gRPC") [started]
-- [ ] [Dapr](https://dapr.io) (using Dapr 1.0-rc3) [started]
+- [ ] [Dapr](https://dapr.io) (using Dapr 1.0) [started]
 - [ ] [Microdot](https://github.com/gigya/microdot) (waiting for version 3.x, which is expected to support .Net 5)
 - [ ] [Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-overview) (waiting for SDK 8.0, which is expected to support .Net 5)
 - [ ] [MS Orleans](https://dotnet.github.io/orleans/) (an actor system, which could be thougth as a more granular microservice approach) [started]
